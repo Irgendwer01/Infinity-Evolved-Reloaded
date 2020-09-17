@@ -14,7 +14,7 @@ recipes.remove(<draconicevolution:energy_crystal>);
 recipes.remove(<draconicevolution:grinder>);
 recipes.remove(<draconicevolution:energy_infuser>);
 recipes.remove(<draconicevolution:draconium_chest>);
-recipes.remove(<draconicevolution:dislocator_advanced>.withTag({}));
+recipes.remove(<draconicevolution:dislocator_advanced>;
 recipes.remove(<draconicevolution:dislocator>);
 recipes.remove(<draconicevolution:draconic_energy_core>);
 recipes.remove(<draconicevolution:wyvern_energy_core>);
@@ -64,10 +64,10 @@ recipes.addShaped(<draconicevolution:wyvern_core>, [[<ore:ingotElectrumFlux>, <d
 recipes.addShaped(<draconicevolution:infused_obsidian>, [[<minecraft:blaze_powder>, <enderio:block_reinforced_obsidian>, <minecraft:blaze_powder>], [<enderio:block_reinforced_obsidian>, <ore:dustDraconium>, <enderio:block_reinforced_obsidian>], [<minecraft:blaze_powder>, <enderio:block_reinforced_obsidian>, <minecraft:blaze_powder>]]);
 recipes.addShaped(<draconicevolution:draconium_chest>, [[<draconicevolution:infused_obsidian>, <draconicevolution:infused_obsidian>, <draconicevolution:infused_obsidian>], [<ironchest:iron_chest:6>, <draconicevolution:draconium_block>, <ironchest:iron_chest:6>], [null, <ic2:nuclear:10>, null]]);
 recipes.addShaped(<draconicevolution:generator>, [[<minecraft:netherbrick>, <ore:ingotIron>, <minecraft:netherbrick>], [<ore:ingotIron>, <minecraft:furnace>, <ore:ingotIron>], [<minecraft:netherbrick>, <draconicevolution:wyvern_core>, <minecraft:netherbrick>]]);
-recipes.addShaped(<draconicevolution:dislocator_advanced>.withTag({}), [[<draconicevolution:draconium_block:1>, <draconicevolution:dislocator>, <draconicevolution:draconium_block:1>], [<draconicevolution:dislocator>, <extrautils2:simpledecorative>, <draconicevolution:dislocator>], [<draconicevolution:draconium_block:1>, <draconicevolution:awakened_core>, <draconicevolution:draconium_block:1>]]);
+recipes.addShaped(<draconicevolution:dislocator_advanced>, [[<draconicevolution:draconium_block:1>, <draconicevolution:dislocator>, <draconicevolution:draconium_block:1>], [<draconicevolution:dislocator>, <extrautils2:simpledecorative>, <draconicevolution:dislocator>], [<draconicevolution:draconium_block:1>, <draconicevolution:awakened_core>, <draconicevolution:draconium_block:1>]]);
 recipes.addShaped(<draconicevolution:dislocator>, [[<ore:blockBlaze>, <thermalfoundation:storage_alloy:7>, <ore:blockBlaze>], [<thermalfoundation:storage_alloy:7>, <draconicevolution:wyvern_core>, <thermalfoundation:storage_alloy:7>], [<ore:blockBlaze>, <thermalfoundation:storage_alloy:7>, <ore:blockBlaze>]]);
 FusionCrafting.add(<draconicevolution:awakened_core>, <draconicevolution:draconic_block>, FusionCrafting.WYVERN, 1250000, [<draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>, <ore:ingotIridium>, <ore:ingot_dark_soularium>, <ore:ingotTerrasteel>, <ore:ingotVoid>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>]);
-FusionCrafting.add(<draconicevolution:draconium_block:1>, <draconicevolution:draconic_block>, FusionCrafting.WYVERN, 200000000, [<draconicevolution:draconium_block>, <draconicevolution:draconium_block>, <draconicevolution:draconium_block>, <draconicevolution:draconium_block>, <draconicevolution:draconium_block>, <draconicevolution:draconium_block>, <draconicevolution:draconium_block>, <draconicevolution:draconium_block>]);
+FusionCrafting.add(<draconicevolution:draconium_block:1>, <draconicevolution:draconium_block>, FusionCrafting.WYVERN, 200000000, [<draconicevolution:draconium_block>, <draconicevolution:draconium_block>, <draconicevolution:draconium_block>, <draconicevolution:draconium_block>, <draconicevolution:draconium_block>, <draconicevolution:draconium_block>, <draconicevolution:draconium_block>, <draconicevolution:draconium_block>]);
 
 
 # -Wyvern Tools
